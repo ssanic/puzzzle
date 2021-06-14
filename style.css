@@ -1,0 +1,29 @@
+div {
+  text-align: center;
+  margin-top: 20%;
+  color: aliceblue;
+}
+a{
+ margin-left: 40%;
+ animation: rotate 2s 0s infinite ease;
+ width: 100px;
+ height: 100px;
+}
+body{
+  background-color: rgb(42, 42, 42);
+}
+@media screen and (max-width:720px) {
+ a{
+   margin-left: 25%;
+   
+ }
+}
+@keyframes rotate {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+  
